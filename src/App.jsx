@@ -5,11 +5,11 @@ import NavBar from './Components/NavBar'
 
 const App = () => {
   return (
-    <main className='flex flex-col gap-4'>
+    <React.Fragment>
       <NavBar />
       <MainContent />
       <Footer />
-    </main>
+    </React.Fragment>
   )
 }
 

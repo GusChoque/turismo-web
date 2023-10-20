@@ -4,6 +4,15 @@
 
 body {
     margin: 0;
-    background: #fff;
     font-family: system-ui;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+#main {
+    background-image: url("./assets/images/monumento-guemes.jpg");
+    background-size: 100% 100vh;
 }
