@@ -1,7 +1,5 @@
 import React from "react";
-import Home from "./Home";
 import NavBar from "./NavBar";
-import Travels from "./Travels";
 import Footer from "./Footer";
 
 /* eslint-disable react/prop-types */

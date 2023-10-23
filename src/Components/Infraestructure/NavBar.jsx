@@ -1,10 +1,8 @@
-import { Link, BrowserRouter, Route } from "react-router-dom";
-import Home from "./Home";
-import Main from "./Main";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <nav className="w-full inline-flex justify-between p-6 barra">
         <h1 className="text-4xl font-normal leading-10 py-2 px-4">
           Turismo web
@@ -28,7 +26,7 @@ function NavBar() {
         </ul>
         <div className="text-base font-bold p-4">Lang</div>
       </nav>    
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 
