@@ -21,6 +21,7 @@ const router = createBrowserRouter([
         path: "/about",
         element: (
           <Main>
+              <Home />
               <About />
           </Main>
         ),
@@ -30,20 +31,12 @@ const router = createBrowserRouter([
         path: "/contact",
         element: (
           <Main>
+              <Home />
               <Contact />
           </Main>
         ),
         
       },
-      // {
-      //   path: "*",
-      //   element: (
-      //     <ErrorPage />
-      //   ),
-      //   status: 404,
-      //   statusText: "Not Found",
-      //   message: "cete culia",
-      // },
   ]);
 
 export default router;

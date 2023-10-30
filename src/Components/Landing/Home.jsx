@@ -5,7 +5,7 @@ function Home() {
   return (
     // <Background>
       // <section className="h-screen p-4 bg-local home" style={{'background-image': `url(${image1})`}} >
-      <section className="h-screen p-4 bg-local home" >
+      <section className="h-[50vh] py-4 px-60 bg-local border home" >
 
         <article className="flex flex-col text-center items-center font-semibold">
           <h1 className="py-10 text-5xl font-bold">Explore Salta with us</h1>

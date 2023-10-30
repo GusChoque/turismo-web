@@ -4,12 +4,12 @@ import image2 from "../../assets/images/image2.jpg";
 const Travels = () => {
   return (
     // <section className="py-4 px-10 bg-local travels" style={{'background-image': `url(${image2})`}}>
-    <section className="py-4 px-10 bg-local travels">
-      <h2 className="text-3xl font-bold text-center">Get to Know Salta</h2>
-      <div className="h-screen grid grid-cols-3 items-center justify-items-center">
+    <section className="h-screen py-4 px-60 bg-local travels">
+      <h2 className="text-3xl font-bold text-center py-5">Get to Know Salta</h2>
+      <div className="py-10 grid grid-cols-3 items-center justify-items-center">
         <article className="border p-8 w-3/4">
           <h2 className="p-2 text-2xl font-semibold">Pueblo 1</h2>
-          <p className="p-2">
+          <p className="p-2 text-justify">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
             dicta suscipit expedita temporibus ad est aliquam libero
             reprehenderit ratione omnis vel inventore impedit sint possimus quos
@@ -19,7 +19,7 @@ const Travels = () => {
         </article>
         <article className="border p-8 w-3/4">
           <h2 className="p-2 text-2xl font-semibold">Pueblo 2</h2>
-          <p className="p-2">
+          <p className="p-2 text-justify">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
             dicta suscipit expedita temporibus ad est aliquam libero
             reprehenderit ratione omnis vel inventore impedit sint possimus quos
@@ -29,7 +29,7 @@ const Travels = () => {
         </article>
         <article className="border p-8 w-3/4">
           <h2 className="p-2 text-2xl font-semibold">Pueblo 3</h2>
-          <p className="p-2">
+          <p className="p-2 text-justify">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
             dicta suscipit expedita temporibus ad est aliquam libero
             reprehenderit ratione omnis vel inventore impedit sint possimus quos
