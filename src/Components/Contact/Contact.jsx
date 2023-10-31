@@ -1,58 +1,62 @@
 const Contact = () => {
   return (
-    <section className="h-[75vh] py-4 px-60 bg-local home">
-      <article className="flex flex-row font-semibold">
-        <h1 className="p-10 w-1/2 text-5xl font-bold">Contact</h1>
-        {/* <p className="p-5 text-base capitalize w-1/2 font-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-            voluptatum perferendis? Labore sed animi ad soluta quasi
-            necessitatibus corrupti illum blanditiis, dolor et quam? Nemo rem
-            magni qui! Unde, expedita?
-          </p> */}
-        <form action="" method="" className="w-1/2 flex flex-col">
-          <fieldset className="flex flex-col">
-            <legend className="pt-0 p-5 mb-2 text-base text-center font-medium">
-              Contact us here
-            </legend>
-            <div className="p-3">
-              <label htmlFor="name" className="p-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                placeholder="Name"
-                className="border-2 border-black p-2 rounded-lg w-2/3 ml-6"
-              />
-            </div>
-            <div className="p-3 flex">
-              <label htmlFor="email" className="p-2">
-                E-Mail
-              </label>
-              <input
-                type="text"
-                id="email"
-                placeholder="E-Mail"
-                className="border-2 border-black p-2 rounded-lg w-2/3 ml-6"
-              />
-            </div>
-            <div className="p-3 flex">
-              <label htmlFor="comment" className="p-2">
-                Comment
-              </label>
-              <textarea
-                id="comment"
-                rows="5"
-                placeholder="Comment"
-                className="border-2 border-black p-2 rounded-lg w-2/3"
-              />
-            </div>
-          </fieldset>
-          <button className="rounded-lg border-2 border-black p-3 w-1/6 self-center shadow-lg hover:border-red-500 hover:text-red-500">
-            Send
-          </button>
-        </form>
-      </article>
+    <section className="py-10 px-8 bg-local contact">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center">
+        <h1 className="text-4xl font-bold text-center text-white mb-8">
+          Contact
+        </h1>
+        <div className="flex flex-col lg:flex-row w-full">
+        <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
+            <img
+              src="/your-image-source.jpg" // Replace with your image source
+              alt="Contact Image"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+          <div className="w-full lg:w-1/2 pr-4">
+            <form className="bg-white p-6 rounded-lg shadow-lg">
+              <h2 className="text-2xl font-semibold mb-4">Contact us here</h2>
+              <div className="mb-4">
+                <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                  className="w-full border-2 border-gray-400 p-2 rounded-lg focus:outline-none focus:border-black"
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+                  E-Mail
+                </label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="E-Mail"
+                  className="w-full border-2 border-gray-400 p-2 rounded-lg focus:outline-none focus:border-black"
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="comment" className="block text-gray-700 font-medium mb-2">
+                  Comment
+                </label>
+                <textarea
+                  id="comment"
+                  rows="5"
+                  placeholder="Comment"
+                  className="w-full border-2 border-gray-400 p-2 rounded-lg focus:outline-none focus:border-black"
+                />
+              </div>
+              <button className="bg-red-500 text-white rounded-lg p-3 w-1/4 self-center hover:bg-red-600 hover:text-white">
+                Send
+              </button>
+            </form>
+          </div>
+          
+        </div>
+      </div>
     </section>
   );
 };

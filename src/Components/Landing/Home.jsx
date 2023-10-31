@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <section className="max-w-screen-xl mx-auto h-[50vh] py-4 bg-local home relative">
+    <section className="max-w-screen-xl mx-auto h-[65vh] py-4 bg-local home relative">
       <div className="flex flex-col text-center items-center justify-center h-full">
         <h1 className="py-10 text-5xl font-bold ">Explore Salta with us</h1>
         <p className="p-5 text-base  capitalize w-1/2 font-medium">
