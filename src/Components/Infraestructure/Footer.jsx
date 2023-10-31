@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 import Facebook from "../../assets/icons/facebook.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 import Twitter from "../../assets/icons/twitter.svg";
-
 function Footer() {
   return (
-    <footer className="w-full py-4 px-60 grid grid-cols-3 footer">
+    <footer className="w-full py-4 px-60 grid grid-cols-3 bg-gray-700 footer text-white">
       <div className="p-5 flex flex-col">
         <h2 className="pb-3 font-bold">Company Name</h2>
         <p className="w-11/12 p-2 text-justify">
@@ -18,18 +17,36 @@ function Footer() {
       <div className="p-5">
         <Link>Contacto</Link>
         <ul className="p-2 text-justify">
-          <li>387 - 321321654</li>
-          <li>387 - 321321654</li>
-          <li>387 - 321321654</li>
+          <li>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+              387 - 321321654
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+              387 - 321321654
+            </a>
+          </li>
+          <li>
+            <a href="https://web.whatsapp.com/send?phone=112341231" target="_blank" rel="noreferrer">
+              387 - 321321654
+            </a>
+          </li>
         </ul>
       </div>
 
       <div className="p-5 flex flex-col">
         <span className="p-2">Redes</span>
         <div className="inline-flex gap-3 p-2">
-          <img src={Facebook} alt="Facebook" />
-          <img src={Instagram} alt="Facebook" />
-          <img src={Twitter} alt="Facebook" />
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+            <img src={Facebook} alt="Facebook" />
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+            <img src={Twitter} alt="Twitter" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
       </div>
     </footer>
