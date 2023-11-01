@@ -7,8 +7,8 @@ import Whatsapp from "../Whatsapp";
 const Main = ({ children }) => {
   return (
     <React.Fragment>
-      <Whatsapp />
       <NavBar />
+      <Whatsapp />
       {children}
       <Footer />
     </React.Fragment>

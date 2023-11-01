@@ -7,7 +7,7 @@ const Travels = () => {
         Get to Know Salta
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-xl">
-        {[1, 2, 3, 4, 5, 6].map((pueblo) => (
+        {[1, 2, 3, 4, 5].map((pueblo) => (
           <article
             key={pueblo}
             className="bg-white border p-8 rounded-lg shadow-md"
