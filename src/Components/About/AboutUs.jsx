@@ -6,8 +6,8 @@ const AboutUs = () => {
         <h1 className="text-4xl font-bold text-center mb-8">
           About Us
         </h1>
-        <div className="flex flex-col lg:flex-row w-full">
-          <div className="w-full lg:w-1/2 pr-4">
+        <div className="flex flex-col sm:flex-row w-full">
+          <div className="w-full sm:w-1/2 pr-4">
             <p className="text-base capitalize">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
               voluptatum perferendis? Labore sed animi ad soluta quasi necessitatibus
@@ -15,11 +15,11 @@ const AboutUs = () => {
               expedita?
             </p>
           </div>
-          <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
+          <div className="w-full sm:w-1/2 mt-4 sm:mt-0">
             <img
               src="/your-image-source.jpg" // Replace with your image source
               alt="About Us Image"
-              className="w-full h-auto rounded-lg"
+              className="hidden sm:block w-full h-auto rounded-lg"
             />
           </div>
         </div>

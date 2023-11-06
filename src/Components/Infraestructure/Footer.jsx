@@ -9,9 +9,7 @@ function Footer() {
           <h2 className="pb-3 text-2xl font-bold text-white">Company Name</h2>
           <p className="text-base text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            voluptates et, id aliquam officia sunt quasi temporibus maxime
-            incidunt asperiores excepturi non minus deleniti esse, accusantium
-            nostrum quidem veniam fuga?
+            voluptates et, id aliquam
           </p>
         </div>
         <div className="p-5">

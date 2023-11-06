@@ -5,15 +5,15 @@ const Contact = () => {
         <h1 className="text-4xl font-bold text-center text-white mb-8">
           Contact
         </h1>
-        <div className="flex flex-col lg:flex-row w-full">
-        <div className="w-full lg:w-1/2 mt-4 lg:mt-0">
+        <div className="flex flex-col sm:flex-row w-full">
+        <div className="hidden sm:block sm:w-1/2 mt-4 sm:mt-0">
             <img
-              src="/your-image-source.jpg" // Replace with your image source
+              src="/your-image-source.jpg"
               alt="Contact Image"
               className="w-full h-auto rounded-lg"
             />
           </div>
-          <div className="w-full lg:w-1/2 pr-4">
+          <div className="w-full sm:w-1/2 pr-4">
             <form className="bg-white p-6 rounded-lg shadow-lg">
               <h2 className="text-2xl font-semibold mb-4">Contact us here</h2>
               <div className="mb-4">
