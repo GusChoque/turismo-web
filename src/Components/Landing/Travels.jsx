@@ -1,4 +1,4 @@
-import travel1 from "../../assets/images/travel1.jpg";
+import travel1 from "../../assets/images/image (20).jpg";
 
 const Travels = () => {
   return (
