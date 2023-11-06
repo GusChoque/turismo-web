@@ -1,4 +1,4 @@
-import travel1 from "../../assets/images/image (20).jpg";
+import { Recorridos } from "./Recorridos";
 
 const Travels = () => {
   return (
@@ -7,23 +7,23 @@ const Travels = () => {
         Get to Know Salta
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-xl">
-        {[1, 2, 3, 4, 5].map((pueblo) => (
+        {Recorridos.map((recorrido) => (
           <article
-            key={pueblo}
-            className="bg-white border p-8 rounded-lg shadow-md"
+            key={recorrido.name}
+            className="bg-white border p-8 rounded-lg shadow-lg"
           >
-            <h2 className="text-2xl font-semibold pb-4">Pueblo {pueblo}</h2>
-            <p className="text-gray-700 text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Mollitia, dicta suscipit expedita temporibus ad est aliquam libero
-              reprehenderit ratione omnis vel inventore impedit sint possimus
-              quos doloribus, cum neque recusandae.
+            <h2 className="text-2xl font-semibold pb-4">{recorrido.name}</h2>
+            <p className="text-justify">
+              {recorrido.description}
             </p>
-            <img
-              src={travel1}
-              alt={`Pueblo ${pueblo}`}
-              className="mt-6 rounded-lg object-cover"
-            />
+            <p className="p-2">Duration: {recorrido.duration}</p>
+            <div className="flex justify-center items-center h-96 my-2">
+              <img
+                src={recorrido.image}
+                alt={`${recorrido.name}`}
+                className="mt-6 rounded-lg object-cover max-h-96 shadow-md"
+              />
+            </div>
           </article>
         ))}
       </div>
