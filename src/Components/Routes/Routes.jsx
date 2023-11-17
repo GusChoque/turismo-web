@@ -5,6 +5,7 @@ import Travels from "../Landing/Travels"
 import About from "../About/AboutUs"
 import Contact from "../Contact/Contact"
 import ErrorPage from "./ErrorPage";
+import Trip from "../Trips/Trip";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,17 @@ const router = createBrowserRouter([
           <Main>
               <Home />
               <Contact />
+          </Main>
+        ),
+        
+      },
+      {
+        /* here goes the requested task */
+        path: "/:formattedName",
+        element: (
+          <Main>
+              <Home />
+              <Trip />
           </Main>
         ),
         

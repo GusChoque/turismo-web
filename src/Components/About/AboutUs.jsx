@@ -19,7 +19,7 @@ const AboutUs = () => {
             <img
               src="/your-image-source.jpg" // Replace with your image source
               alt="About Us Image"
-              className="hidden sm:block w-full h-auto rounded-lg"
+              className="hidden sm:block w-full max-h-[440px] rounded-lg"
             />
           </div>
         </div>
