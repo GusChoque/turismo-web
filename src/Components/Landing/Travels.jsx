@@ -37,7 +37,7 @@ const Travels = () => {
               </div>
                 <Link
                   to={`/${formattedName}`}
-                  className="p-1 text-blac text-lg font-bold rounded-md hover:text-white bg-orange-300 hover:bg-orange-500 duration-300 inline-block self-center"
+                  className="py-1 px-2 text-blac text-lg font-bold rounded-md hover:text-white bg-orange-300 hover:bg-orange-500 duration-300 inline-block self-center"
                 >
                   Mas info
                 </Link>
@@ -45,7 +45,7 @@ const Travels = () => {
               <img
                 src={recorrido.image}
                 alt={`${recorrido.name}`}
-                className="rounded-b-lg w-full flex justify-center items-center h-96 hover:scale-110 duration-500"
+                className="mt-2 rounded-b-lg w-full flex justify-center items-center h-96 hover:scale-110 duration-500"
               />
             </article>
           );
