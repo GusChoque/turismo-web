@@ -1,8 +1,6 @@
-import { useRouteError, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
 
   return (
     <div id="error-page" className="text-center flex flex-col m-4 404 error-page">
@@ -10,7 +8,7 @@ export default function ErrorPage() {
       <p className="mb-4 p-4">Page not found.</p>
       <p className="">Error description:</p>
       <p className="mb-4">
-        <i>{error.statusText || error.message}</i>
+        <i>Page not found.</i>
       </p>
       <Link to="/">
         <span className="rounded-lg border-2 p-2 border-black font-bold hover:border-red-500 hover:underline">

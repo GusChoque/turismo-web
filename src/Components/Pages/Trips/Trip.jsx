@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Recorridos } from "../../../assets/locales/Recorridos";
 function Trip() {
@@ -7,11 +7,10 @@ function Trip() {
   };
 
   const {formattedName} = useParams();
+  const navigate = useNavigate();
 
   const [recorrido, setRecorrido] = useState({});
   
-
-
   useEffect(() => {
     if (!formattedName) {
       return;
@@ -24,8 +23,9 @@ function Trip() {
       setRecorrido(foundRecorrido);
     } else {
       console.error(`Recorrido with name "${formattedName}" not found.`);
+      navigate("/error");
     }
-  }, [formattedName]);
+  }, [formattedName, navigate]);
 
   const { name, description, duration, image } = recorrido;
 
