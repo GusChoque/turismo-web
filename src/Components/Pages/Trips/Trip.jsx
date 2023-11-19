@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Recorridos } from "../../assets/locales/Recorridos";
+import { Recorridos } from "../../../assets/locales/Recorridos";
 function Trip() {
   const formatName = (name) => {
     return name.toLowerCase().replace(/\s+/g, "-");

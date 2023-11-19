@@ -1,6 +1,6 @@
-import Facebook from "../../assets/icons/facebook.svg";
-import Instagram from "../../assets/icons/instagram.svg";
-import Twitter from "../../assets/icons/twitter.svg";
+import Facebook from "../../../assets/icons/facebook.svg";
+import Instagram from "../../../assets/icons/instagram.svg";
+import Twitter from "../../../assets/icons/twitter.svg";
 function Footer() {
   return (
     <footer className="w-full py-8 bg-gray-700 opacity-90 bg-local relative text-white">
@@ -12,37 +12,37 @@ function Footer() {
             voluptates et, id aliquam
           </p>
         </div>
-        <div className="p-5">
+        <div className="p-5 text-right">
           <h2 className="text-2xl font-bold text-white">Contact</h2>
           <ul className="text-base text-gray-300">
             <li>
               <a
-                href="https://wa.me/1234567890"
+                href="https://web.whatsapp.com/send?phone=3517011557&text=Hola%21%20este%20es%20un%20mensaje%20personalizado%0D%0AHello%21%20this%20is%20a%20personalised%20messaje"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-white"
+                className="hover:text-white hover:font-semibold"
               >
-                387 - 321321654
+                387 - 321321651
               </a>
             </li>
             <li>
               <a
-                href="https://wa.me/1234567890"
+                href="https://web.whatsapp.com/send?phone=3517011557&text=Hola%21%20este%20es%20un%20mensaje%20personalizado%0D%0AHello%21%20this%20is%20a%20personalised%20messaje"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-white"
+                className="hover:text-white hover:font-semibold"
               >
-                387 - 321321654
+                387 - 321321652
               </a>
             </li>
             <li>
               <a
-                href="https://web.whatsapp.com/send?phone=112341231"
+                href="https://web.whatsapp.com/send?phone=3517011557&text=Hola%21%20este%20es%20un%20mensaje%20personalizado%0D%0AHello%21%20this%20is%20a%20personalised%20messaje"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-white"
+                className="hover:text-white hover:font-semibold"
               >
-                387 - 321321654
+                387 - 321321653
               </a>
             </li>
           </ul>
@@ -54,7 +54,7 @@ function Footer() {
               href="https://www.facebook.com/"
               target="_blank"
               rel="noreferrer"
-              className="p-1"
+              className="p-1 hover:scale-110 duration-300"
             >
               <img src={Facebook} alt="Facebook" />
             </a>
@@ -62,7 +62,7 @@ function Footer() {
               href="https://twitter.com/"
               target="_blank"
               rel="noreferrer"
-              className="p-1"
+              className="p-1 hover:scale-110 duration-300"
             >
               <img src={Twitter} alt="Twitter" />
             </a>
@@ -70,7 +70,7 @@ function Footer() {
               href="https://www.instagram.com/"
               target="_blank"
               rel="noreferrer"
-              className="p-1"
+              className="p-1 hover:scale-110 duration-300"
             >
               <img src={Instagram} alt="Instagram" />
             </a>

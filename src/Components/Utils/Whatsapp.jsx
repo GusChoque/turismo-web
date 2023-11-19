@@ -1,4 +1,4 @@
-import Logo from "../assets/icons/whatsapp.svg";
+import Logo from "../../assets/icons/whatsapp.svg";
 
 const Whatsapp = () => {
   return (

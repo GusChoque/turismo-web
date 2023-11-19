@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Whatsapp from "../Whatsapp";
+import Whatsapp from "../../Utils/Whatsapp";
 
 /* eslint-disable react/prop-types */
 const Main = ({ children }) => {

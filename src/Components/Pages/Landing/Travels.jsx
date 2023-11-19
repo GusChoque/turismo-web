@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { Recorridos } from "../../assets/locales/Recorridos";
-import image1 from "../../assets/images/image1.jpg";
-import image2 from "../../assets/images/image2.jpg";
-import image3 from "../../assets/images/image3.jpg";
+import { Recorridos } from "../../../assets/locales/Recorridos";
+import image1 from "../../../assets/images/image1.jpg";
+import image2 from "../../../assets/images/image2.jpg";
+import image3 from "../../../assets/images/image3.jpg";
 
 const formatName = (name) => {
   return name.toLowerCase().replace(/\s+/g, "-");
