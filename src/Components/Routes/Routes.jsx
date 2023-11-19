@@ -12,7 +12,6 @@ const router = createBrowserRouter([
         path: "/",
         element: (
           <Main>
-              <Home />
               <Travels />
           </Main>
         ),
@@ -22,32 +21,25 @@ const router = createBrowserRouter([
         path: "/about",
         element: (
           <Main>
-              <Home />
               <About />
           </Main>
         ),
-        
       },
       {
         path: "/contact",
         element: (
           <Main>
-              <Home />
               <Contact />
           </Main>
         ),
-        
       },
       {
-        /* here goes the requested task */
         path: "/:formattedName",
         element: (
           <Main>
-              <Home />
               <Trip />
           </Main>
         ),
-        
       },
   ]);
 

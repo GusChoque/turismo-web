@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Whatsapp from "../../Utils/Whatsapp";
+import Home from "../Landing/Home";
 
 /* eslint-disable react/prop-types */
 const Main = ({ children }) => {
@@ -9,6 +10,7 @@ const Main = ({ children }) => {
     <React.Fragment>
       <NavBar />
       <Whatsapp />
+      <Home />
       {children}
       <Footer />
     </React.Fragment>
