@@ -5,17 +5,16 @@ import About from "../Pages/About/AboutUs";
 import Contact from "../Pages/Contact/Contact";
 import ErrorPage from "./ErrorPage";
 import Trip from "../Pages/Trips/Trip";
-import Home from "../Pages/Landing/Home";
 
 function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main><Home /><Travels /></Main>} />
-        <Route path="/about" element={<Main><Home /><About /></Main>} />
-        <Route path="/contact" element={<Main><Home /><Contact /></Main>} />
-        <Route path="/:formattedName" element={<Main><Home /><Trip /></Main>} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route path="/" element={<Main><Travels /></Main>} />
+        <Route path="/about" element={<Main><About /></Main>} />
+        <Route path="/contact" element={<Main><Contact /></Main>} />
+        <Route path="/:formattedName" element={<Main><Trip /></Main>} />
+        <Route path="/error" element={<ErrorPage />} />
       </Routes>
     </Router>
   );

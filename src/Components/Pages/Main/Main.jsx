@@ -11,7 +11,7 @@ const Main = ({ children }) => {
     <React.Fragment>
       <NavBar />
       <Whatsapp />
-      {/* <Home /> */}
+      <Home />
       {children}
       <Outlet />
       <Footer />
