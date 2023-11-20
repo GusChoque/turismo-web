@@ -22,7 +22,6 @@ function Trip() {
     if (foundRecorrido) {
       setRecorrido(foundRecorrido);
     } else {
-      console.error(`Recorrido with name "${formattedName}" not found.`);
       navigate("/error");
     }
   }, [formattedName, navigate]);
