@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import { Recorridos } from "../../../assets/locales/Recorridos";
-import image1 from "../../../assets/images/image1.jpg";
-import image2 from "../../../assets/images/image2.jpg";
-import image3 from "../../../assets/images/image3.jpg";
+import image from "../../../assets/images/image19.jpg";
 
 const formatName = (name) => {
   return name.toLowerCase().replace(/\s+/g, "-");
@@ -13,7 +11,7 @@ const Travels = () => {
     <section
       className="py-10 px-8 bg-local travels"
       style={{
-        backgroundImage: `url(${image2})`,
+        backgroundImage: `url(${image})`,
         backgroundSize: "cover",
       }}
     >
@@ -25,7 +23,7 @@ const Travels = () => {
           const formattedName = formatName(recorrido.name);
           return (
             <article
-              className="bg-white rounded-lg flex flex-col shadow-black shadow-2xl overflow-clip gap-4 pt-8"
+              className="bg-white/80 rounded-lg flex flex-col shadow-black shadow-2xl overflow-clip gap-4 pt-8"
               key={formattedName}
             >
               <div className="px-8">
@@ -37,7 +35,7 @@ const Travels = () => {
               </div>
                 <Link
                   to={`/${formattedName}`}
-                  className="py-1 px-2 text-blac text-lg font-bold rounded-md hover:text-white bg-orange-300 hover:bg-orange-500 duration-300 inline-block self-center"
+                  className="p-3 w-1/3 text-blac text-lg font-bold rounded-md text-white bg-[#345E92] hover:bg-[#4A85CD] duration-300 inline-block self-center text-center"
                 >
                   Mas info
                 </Link>

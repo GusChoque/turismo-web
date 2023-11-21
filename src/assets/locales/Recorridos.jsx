@@ -1,10 +1,10 @@
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
+import image1 from "../images/image15.jpg";
+import image2 from "../images/image09.jpg";
+import image3 from "../images/image01.jpg";
 
 export const Recorridos = [
     {
-        name: "Pueblo 1",
+        name: "San Carlos",
         description: "1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, dicta suscipit expedita temporibus ad est aliquam libero reprehenderit ratione omnis vel inventore impedit sint possimus quos doloribus, cum neque recusandae.",
         duration: "2:00 hs",
         price: "40.00",

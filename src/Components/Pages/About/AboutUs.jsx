@@ -1,3 +1,4 @@
+import image from "../../../assets/images/image05.jpg";
 
 const AboutUs = () => {
   return (
@@ -17,9 +18,9 @@ const AboutUs = () => {
           </div>
           <div className="w-full sm:w-1/2 mt-4 sm:mt-0">
             <img
-              src="/your-image-source.jpg" // Replace with your image source
+              src={image}
               alt="About Us Image"
-              className="hidden sm:block w-full max-h-[440px] rounded-lg"
+              className="w-full max-h-[440px] rounded-lg"
             />
           </div>
         </div>
