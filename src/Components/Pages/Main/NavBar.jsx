@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 opacity-90 p-2 bg-gray-700 barra">
+    <nav className="fixed top-0 left-0 right-0 z-10 p-2 bg-[#112D4E] barra">
       {/* <div className="max-w-screen-xl mx-auto flex justify-between items-center"> */}
       <div className="flex justify-between">
 

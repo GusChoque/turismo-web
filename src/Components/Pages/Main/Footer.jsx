@@ -3,7 +3,7 @@ import Instagram from "../../../assets/icons/instagram.svg";
 import Twitter from "../../../assets/icons/twitter.svg";
 function Footer() {
   return (
-    <footer className="w-full py-8 bg-gray-700 opacity-90 bg-local relative text-white">
+    <footer className="w-full py-8 bg-[#112D4E] bg-local relative text-white">
       <div className="max-w-screen-xl mx-auto grid grid-cols-3 gap-4">
         <div className="p-5 flex flex-col">
           <h2 className="pb-3 text-2xl font-bold text-white">Company Name</h2>
