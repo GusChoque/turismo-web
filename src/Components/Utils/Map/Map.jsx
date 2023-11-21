@@ -1,13 +1,15 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { VITE_MAP_COORD } from "../../../../env";
+import "./Map.css"
 
 function Map() {
-  const position = [-24.789040676562674, -65.41031850852323];
+  const position = VITE_MAP_COORD;
   
   return (
     <MapContainer
       center={position}
       zoom={13}
-      style={{ height: "100%", width: "100%" }}
+      className="leaflet-container"
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
