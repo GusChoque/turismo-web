@@ -51,7 +51,7 @@ const Contact = () => {
                   E-Mail
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   id="user_email"
                   name="user_email"
                   placeholder="E-Mail"
