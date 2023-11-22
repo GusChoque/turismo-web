@@ -12,7 +12,7 @@ function NavBar() {
       <ul className="sm:ml-10 inline-flex text-center grow items-center gap-2">
         <li className="p-2">
           <Link to="/" className="text-2xl text-gray-300 hover:text-white">
-            Home
+            Home CAMBIO
           </Link>
         </li>
         <li className="p-2">
