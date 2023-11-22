@@ -4,7 +4,6 @@ function Home() {
 
   return (
     <ImageCarousel>
-      {/* <ImageCarousel> */}
       <section
         className="max-w-screen-xl mx-auto h-[80vh] sm:h-[70vh] py-4 bg-local text-white relative home"
       >
