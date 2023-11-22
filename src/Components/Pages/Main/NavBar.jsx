@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import LanguajeToggle from "../../Utils/LanguajeToggle";
 
 function NavBar() {
   return (
@@ -28,7 +29,7 @@ function NavBar() {
           </Link>
         </li>
       </ul>
-      <div className="text-gray-300 p-4">Lang</div>
+      <LanguajeToggle />
       </div>
     </nav>
   );
