@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import { Recorridos } from "../../../assets/locales/Recorridos";
 import image from "../../../assets/images/image19.jpg";
-
-const formatName = (name) => {
-  return name.toLowerCase().replace(/\s+/g, "-");
-};
+import { useTranslation } from "react-i18next";
 
 const Travels = () => {
+  const formatName = (name) => {
+    return name.toLowerCase().replace(/\s+/g, "-");
+  };
+
+  const { t } = useTranslation();
+
   return (
     <section
       className="py-10 px-8 bg-local travels"
@@ -16,7 +19,7 @@ const Travels = () => {
       }}
     >
       <h2 className="text-4xl font-bold text-center pb-10">
-        Get to Know Salta
+        {t("travels.title")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-xl">
         {Recorridos.map((recorrido) => {
@@ -33,12 +36,12 @@ const Travels = () => {
                 <p className="text-justify text-lg">{recorrido.description}</p>
                 <p className="py-4">Duration: {recorrido.duration}</p>
               </div>
-                <Link
-                  to={`/${formattedName}`}
-                  className="p-3 w-1/3 text-blac text-lg font-bold rounded-md text-white bg-[#345E92] hover:bg-[#4A85CD] duration-300 inline-block self-center text-center"
-                >
-                  Mas info
-                </Link>
+              <Link
+                to={`/${formattedName}`}
+                className="p-3 w-1/3 min-w-fit text-blac text-lg font-bold rounded-md text-white bg-[#345E92] hover:bg-[#4A85CD] duration-300 inline-block self-center text-center"
+              >
+                {t("travels.buttonArticle")}
+              </Link>
 
               <img
                 src={recorrido.image}
