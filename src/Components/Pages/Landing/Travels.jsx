@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { Recorridos } from "../../../assets/locales/Recorridos";
+import { Tours } from "../../../assets/locales/Tours";
 import image from "../../../assets/images/image19.jpg";
 import { useTranslation } from "react-i18next";
 
 const Travels = () => {
   const formatName = (name) => {
-    return name.toLowerCase().replace(/\s+/g, "-");
+    return name ? name.toLowerCase().replace(/\s+/g, "-") : "";
   };
 
   const { t } = useTranslation();
@@ -22,19 +22,22 @@ const Travels = () => {
         {t("travels.title")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-screen-xl">
-        {Recorridos.map((recorrido) => {
-          const formattedName = formatName(recorrido.name);
+        {Tours.map((tourKey) => {
+          const tour = t(`tours.${tourKey.key}`, {
+            returnObjects: true,
+          });
+          const formattedName = formatName(tour.name);
           return (
             <article
               className="bg-white/80 rounded-lg flex flex-col shadow-black shadow-2xl overflow-clip gap-4 pt-8"
               key={formattedName}
             >
               <div className="px-8">
-                <h2 className="text-2xl font-semibold pb-4">
-                  {recorrido.name}
-                </h2>
-                <p className="text-justify text-lg">{recorrido.description}</p>
-                <p className="py-4">Duration: {recorrido.duration}</p>
+                <h2 className="text-2xl font-semibold pb-4">{tour.name}</h2>
+                <p className="text-justify text-lg">{tour.description}</p>
+                <p className="py-4">
+                  {t("travels.duration")}: {tour.duration}
+                </p>
               </div>
               <Link
                 to={`/${formattedName}`}
@@ -44,8 +47,8 @@ const Travels = () => {
               </Link>
 
               <img
-                src={recorrido.image}
-                alt={`${recorrido.name}`}
+                src={tourKey.image}
+                alt={`${tour.name}`}
                 className="mt-2 rounded-b-lg w-full flex justify-center items-center h-96 hover:scale-110 duration-500"
               />
             </article>

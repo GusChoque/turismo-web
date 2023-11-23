@@ -16,7 +16,31 @@
   },
   "travels": {
     "title": "Conozcan Salta",
-    "buttonArticle": "Mas Info"
+    "buttonArticle": "Mas Info",
+    "duration": "Duración"
+  },
+  "tours": {
+    "pueblo1": {
+      "name": "Pueblo Es 1",
+      "urlName": "pueblo-es-1",
+      "description": "Texto Es",
+      "duration": "2:00 hs",
+      "price": "40.00"
+    },
+    "pueblo2": {
+      "name": "Pueblo Es 2",
+      "urlName": "pueblo-es-2",
+      "description": "Texto Es",
+      "duration": "3:00 hs",
+      "price": "50.00"
+    },
+    "pueblo3": {
+      "name": "Pueblo Es 3",
+      "urlName": "pueblo-es-3",
+      "description": "Texto Es",
+      "duration": "4:00 hs",
+      "price": "60.00"
+    }
   },
   "about": {
     "title": "Nosotros",
@@ -24,7 +48,7 @@
   },
   "contact": {
     "title": "Contacto",
-    "form":{
+    "form": {
       "title": "Contactenos aqui",
       "name": "Nombre",
       "email": "Correo Electrónico",
