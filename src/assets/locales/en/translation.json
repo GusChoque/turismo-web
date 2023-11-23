@@ -1,4 +1,15 @@
 {
+  "navBar": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "name": "Company Name",
+    "companyDescription": "Ingles Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptates et, id aliquam",
+    "contact": "Contact",
+    "media": "Social Media"
+  },
   "home": {
     "title": "Welcome to the Web",
     "description": "Ingles Fill with something nice Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Numquam, Voluptatum Perferendis? Labore Sed Animi Ad Soluta Quasi Necessitatibus Corrupti Illum Blanditiis, Dolor Et Quam? Nemo Rem Magni Qui!"
@@ -6,5 +17,21 @@
   "travels": {
     "title": "Get to know Salta",
     "buttonArticle": "More Info"
+  },
+  "about": {
+    "title": "About us",
+    "description": "Ingles Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Numquam, Voluptatum Perferendis? Labore Sed Animi Ad Soluta Quasi Necessitatibus Corrupti Illum Blanditiis, Dolor Et Quam? Nemo Rem Magni Qui! Unde, Expedita?"
+  },
+  "contact": {
+    "title": "Contact",
+    "form":{
+      "title": "Contact us here",
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Phone",
+      "message": "Message",
+      "btnSend": "Send",
+      "required": "Required"
+    }
   }
 }
