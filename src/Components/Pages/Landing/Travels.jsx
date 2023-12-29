@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Tours } from "../../../assets/locales/Tours";
+import { Tours } from "../../../assets/languajes/Tours";
 import image from "../../../assets/images/image19.jpg";
 import { useTranslation } from "react-i18next";
 

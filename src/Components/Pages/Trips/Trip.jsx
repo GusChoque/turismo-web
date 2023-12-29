@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Tours } from "../../../assets/locales/Tours";
+import { Tours } from "../../../assets/languajes/Tours";
 import { useTranslation } from "react-i18next";
 
 function Trip() {
