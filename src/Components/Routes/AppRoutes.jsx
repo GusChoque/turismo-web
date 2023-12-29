@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "../Pages/Main/Main";
+import Content from "../Pages/Main/Content";
 import Travels from "../Pages/Landing/Travels";
 import About from "../Pages/About/AboutUs";
 import Contact from "../Pages/Contact/Contact";
@@ -10,10 +10,10 @@ function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main><Travels /></Main>} />
-        <Route path="/about" element={<Main><About /></Main>} />
-        <Route path="/contact" element={<Main><Contact /></Main>} />
-        <Route path="/:formattedName" element={<Main><Trip /></Main>} />
+        <Route path="/" element={<Content><Travels /></Content>} />
+        <Route path="/about" element={<Content><About /></Content>} />
+        <Route path="/contact" element={<Content><Contact /></Content>} />
+        <Route path="/:formattedName" element={<Content><Trip /></Content>} />
         <Route path="/error" element={<ErrorPage />} />
       </Routes>
     </Router>

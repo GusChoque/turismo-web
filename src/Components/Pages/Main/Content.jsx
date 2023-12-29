@@ -5,7 +5,7 @@ import Home from "../Landing/Home";
 import { Outlet } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const Main = ({ children }) => {
+const Content = ({ children }) => {
   return (
     <>
       <NavBar />
@@ -18,4 +18,4 @@ const Main = ({ children }) => {
   );
 };
 
-export default Main;
+export default Content;
