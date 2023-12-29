@@ -1,0 +1,61 @@
+{
+  "navBar": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "name": "Company Name",
+    "companyDescription": "Ingles Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptates et, id aliquam",
+    "contact": "Contact",
+    "media": "Social Media"
+  },
+  "home": {
+    "title": "Welcome to the Web",
+    "description": "Ingles Fill with something nice Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Numquam, Voluptatum Perferendis? Labore Sed Animi Ad Soluta Quasi Necessitatibus Corrupti Illum Blanditiis, Dolor Et Quam? Nemo Rem Magni Qui!"
+  },
+  "travels": {
+    "title": "Get to know Salta",
+    "buttonArticle": "More Info",
+    "duration": "Duration"
+  },
+  "tours": {
+    "pueblo1": {
+      "name": "Pueblo En 1",
+      "urlName": "pueblo-en-1",
+      "description": "Some Text",
+      "duration": "2:00 hs",
+      "price": "40.00"
+    },
+    "pueblo2": {
+      "name": "Pueblo En 2",
+      "urlName": "pueblo-en-2",
+      "description": "Some Text",
+      "duration": "3:00 hs",
+      "price": "50.00"
+    },
+    "pueblo3": {
+      "name": "Pueblo En 3",
+      "urlName": "pueblo-en-3",
+      "description": "Some Text",
+      "duration": "4:00 hs",
+      "price": "60.00"
+    }
+  },
+  "about": {
+    "title": "About us",
+    "description": "Ingles Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Numquam, Voluptatum Perferendis? Labore Sed Animi Ad Soluta Quasi Necessitatibus Corrupti Illum Blanditiis, Dolor Et Quam? Nemo Rem Magni Qui! Unde, Expedita?"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "title": "Contact us here",
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Phone",
+      "message": "Message",
+      "btnSend": "Send",
+      "required": "Required"
+    }
+  }
+}
