@@ -11,6 +11,7 @@ function AppRoutes() {
     <Router>
       <Routes>
         <Route path="/" element={<Content><Travels /></Content>} />
+        <Route path="/turismo-web" element={<Content><Travels /></Content>} />
         <Route path="/about" element={<Content><About /></Content>} />
         <Route path="/contact" element={<Content><Contact /></Content>} />
         <Route path="/:formattedName" element={<Content><Trip /></Content>} />
