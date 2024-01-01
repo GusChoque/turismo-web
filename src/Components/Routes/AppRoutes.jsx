@@ -10,12 +10,12 @@ function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Content><Travels /></Content>} />
+        {/* <Route path="/" element={<Content><Travels /></Content>} /> */}
         <Route path="/turismo-web" element={<Content><Travels /></Content>} />
-        <Route path="/about" element={<Content><About /></Content>} />
-        <Route path="/contact" element={<Content><Contact /></Content>} />
-        <Route path="/:formattedName" element={<Content><Trip /></Content>} />
-        <Route path="/error" element={<ErrorPage />} />
+        <Route path="/turismo-web/about" element={<Content><About /></Content>} />
+        <Route path="/turismo-web/contact" element={<Content><Contact /></Content>} />
+        <Route path="/turismo-web/:formattedName" element={<Content><Trip /></Content>} />
+        <Route path="/turismo-web/error" element={<ErrorPage />} />
       </Routes>
     </Router>
   );

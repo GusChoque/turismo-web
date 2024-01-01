@@ -10,7 +10,7 @@ export default function ErrorPage() {
       <p className="mb-4">
         <i>Page not found.</i>
       </p>
-      <Link to="/">
+      <Link to="/turismo-web">
         <span className="rounded-lg border-2 p-2 border-black font-bold hover:border-red-500 hover:underline">
           Return to Home Page
         </span>
